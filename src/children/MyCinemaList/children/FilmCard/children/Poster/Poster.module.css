@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  min-width: 250px;
+  overflow: hidden;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8),
+                0 6px 20px rgba(0, 0, 0, 0.6); */
+  border: 1px solid #6563FF;
+}
+
+.container > img {
+  width: 250px;
+  object-fit: contain;
+}
+
+.placeholder {
+  width: 250px;
+  height: calc(250px * (1/.68));
+  background: rgba(33, 33, 33, .2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 24px;
+}
